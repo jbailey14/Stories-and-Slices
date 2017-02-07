@@ -3,13 +3,12 @@
 /***************/
 /* Body --------------------------------------------------------------*/
 Body{
-    background: lightblue;
+    background: url(../img/bookbanner.jpg);
     background-repeat:repeat;
 }
 
 /* Logo --------------------------------------------------------------*/
-.logo{
-    width: 12em;
+
 }
 
 /* Color Palette -----------------------------------------------------*/
@@ -55,12 +54,29 @@ Body{
 
 /* Banner ------------------------------------------------------------*/
 .banner {
-    background: teal;
+    background: rgba(167,119,57,1);
+    border: 10px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title{
+    padding-left: 2em;
+    flex-grow: 1;
+}
+
+.logo{
+    width: 20%;
+    height: 20%;
+    border: 7px solid black;
+    position: auto;
 }
 
 /* Navigation --------------------------------------------------------*/
 nav {
     background: red;
+    width: 600px;
+    height: 30px;
 }
 
 li {
@@ -106,7 +122,7 @@ h4 {
 p {
     font-family: 'Simonetta', cursive;
     text-transform: none;
-    font-size: 1em;
+    font-size: 1.2em;
     color: black;
 }
 
@@ -127,7 +143,7 @@ button:hover {
 /* Post --------------------------------------------------------------*/
 
 .post {
-    background: rgba(82,116,162,.70);
+    background: rgba(255,255,255,.75);
     padding: .2em 1em .5em 1em;
     border-radius: 2em;
     border: rgba(106,130,107,1) solid 2px;
