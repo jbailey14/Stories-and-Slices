@@ -1,0 +1,13 @@
+/* Navigation --------------------------------------------------------*/
+nav {
+    background: red;
+    width: 600px;
+    height: 30px;
+}
+
+.navlinks {
+    list-style: none;
+    display: inline;
+}
+
+

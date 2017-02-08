@@ -1,0 +1,23 @@
+/* Banner ------------------------------------------------------------*/
+.banner {
+    background:
+    linear-gradient( rgba(167,119,57,.50), rgba(167,119,57,.50) ),
+    
+    url(../img/text3.jpeg);
+    
+    border: 10px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title{
+    padding-left: 2em;
+    flex-grow: 1;
+}
+
+.logo{
+    width: 20%;
+    height: 20%;
+    border: 7px solid black;
+    position: auto;
+}

@@ -1,15 +1,18 @@
 /***************/
-/* YOUR STYLES */
+/* GLOBAL STYLES */
 /***************/
+@import "typography.css";
+@import "banner.css";
+@import "mediaQueries.css";
+@import "navigation.css";
+
+
 /* Body --------------------------------------------------------------*/
 Body{
     background: url(../img/bookbanner.jpg);
     background-repeat:repeat;
 }
 
-/* Logo --------------------------------------------------------------*/
-
-}
 
 /* Color Palette -----------------------------------------------------*/
 
@@ -47,147 +50,3 @@ Body{
 .pattern-3{
     background: url("../img/text3.jpeg");
 }
-
-
-/* Imagery -----------------------------------------------------------*/
-
-
-/* Banner ------------------------------------------------------------*/
-.banner {
-    background: rgba(167,119,57,1);
-    border: 10px solid black;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.title{
-    padding-left: 2em;
-    flex-grow: 1;
-}
-
-.logo{
-    width: 20%;
-    height: 20%;
-    border: 7px solid black;
-    position: auto;
-}
-
-/* Navigation --------------------------------------------------------*/
-nav {
-    background: red;
-    width: 600px;
-    height: 30px;
-}
-
-li {
-    list-style: none;
-    display: inline;
-}
-
-/* Typography --------------------------------------------------------*/
-/* Quotation & Navigation = font-family: 'Simonetta', cursive; */
-
-h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 5em;
-    text-transform: uppercase;
-    color: black;
-}
-
-h2 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: none;
-    font-size: 3em;
-    color: black;
-}
-
-h3 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: none;
-    font-size: 2em;
-    color: black;
-    text-align: center;
-    background: rgb(106,130,107);
-}
-
-h4 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: none;
-    font-size: 1.5em;
-    color: black;
-    text-align: center;
-    background: rgb(106,130,107);
-}
-
-p {
-    font-family: 'Simonetta', cursive;
-    text-transform: none;
-    font-size: 1.2em;
-    color: black;
-}
-
-button {
-    background: blue;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 12px;
-    padding: 8px;
-}
-
-button:hover {
-    background: gray;
-   color: white;
-}
-
-/* Post --------------------------------------------------------------*/
-
-.post {
-    background: rgba(255,255,255,.75);
-    padding: .2em 1em .5em 1em;
-    border-radius: 2em;
-    border: rgba(106,130,107,1) solid 2px;
-    max-width: 80%;
-    min-width: 50%;
-    margin: 2em auto 4em auto;
-    box-shadow: 0.3125em 0.3125em 0.625em black;
-    position: relative;
-}
-
-.post img {
-    float: left;
-    margin: 1em;
-    
-}
-
-section {
-    position: 10em;
-}
-
-
-
-*/
-/* Footer --------------------------------------------------------------*/
-.copyright {
-    text-align: center;
-    font-size: .8em;
-
-/* ---------------------------------------------------------------------*/
-    
-    /********************
-MEDIA QUERIES
-*******************/
-/* Mobile: 320px = 20em */
-@media screen and (min-width: 20em) { 
-
-  /* Diagnostic Styling. Delete When Done. */
-  
-
-/* Tablet:  768px = 160em */
-@media screen and (min-width: 48em)  {
-
-  
-/* Desktop: 1280px = 80em */
-@media screen and (min-width: 80em) { 
-  
-/* Diagnostic Styling. Delete When Done. */

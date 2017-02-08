@@ -1,0 +1,94 @@
+/* Typography --------------------------------------------------------*/
+/* Quotation & Navigation = font-family: 'Simonetta', cursive; */
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5em;
+    text-transform: uppercase;
+    color: rgba(116,20,65,1);
+    text-shadow: 5px 5px 5px #000;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: none;
+    font-size: 3em;
+    color: black;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: none;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    background: rgb(106,130,107);
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: none;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    background: rgb(106,130,107);
+}
+
+p {
+    font-family: 'Simonetta', cursive;
+    text-transform: none;
+    font-size: 1em;
+    color: black;
+}
+
+.pr {
+    font-size: 1.2em;
+}
+
+button {
+    background: blue;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+button:hover {
+    background: gray;
+   color: white;
+}
+
+/* Post --------------------------------------------------------------*/
+
+.post {
+    background: ;
+    background-image: linear-gradient( to right, rgba(255,255,255,1), rgba(255,255,255,.25) );
+    padding: .2em 1em .5em 1em;
+    border-radius: 2em;
+    border: rgba(106,130,107,1) solid 2px;
+    max-width: 80%;
+    min-width: 50%;
+    margin: 2em auto 4em auto;
+    box-shadow: 0.3125em 0.3125em 0.625em black;
+    position: relative;
+}
+
+.post img {
+    float: left;
+    margin: 1em;
+    
+}
+
+section {
+    position: 10em;
+}
+
+
+
+*/
+/* Footer --------------------------------------------------------------*/
+.copyright {
+    color: white;
+    text-align: center;
+    font-size: .8em;
