@@ -1,52 +1,41 @@
-/***************/
-/* GLOBAL STYLES */
-/***************/
-@import "typography.css";
-@import "banner.css";
-@import "mediaQueries.css";
-@import "navigation.css";
-
-
 /* Body --------------------------------------------------------------*/
-Body{
-    background: url(../img/bookbanner.jpg);
-    background-repeat:repeat;
-}
-
+/* line 3, /Users/jbailey14/Desktop/Stories-and-Slices/scss/styles.scss */
+Body {
+  background: url(../img/bookbanner.jpg);
+  background-repeat: repeat; }
 
 /* Color Palette -----------------------------------------------------*/
-
+/* line 11, /Users/jbailey14/Desktop/Stories-and-Slices/scss/styles.scss */
 .color-1 {
-    background: rgba(106,130,107,1);
-}
+  background: #6a826b; }
 
-.color-2{
-    background: rgba(116,20,65,1);
-}
+/* line 15, /Users/jbailey14/Desktop/Stories-and-Slices/scss/styles.scss */
+.color-2 {
+  background: #741441; }
 
-.color-3{
-    background: rgba(82,116,162,1);
-}
+/* line 19, /Users/jbailey14/Desktop/Stories-and-Slices/scss/styles.scss */
+.color-3 {
+  background: #5274a2; }
 
-.color-4{
-    background: rgba(73,54,40,1);
-}
+/* line 23, /Users/jbailey14/Desktop/Stories-and-Slices/scss/styles.scss */
+.color-4 {
+  background: #493628; }
 
-.color-5{
-    background: rgba(167,119,57,1);
-}
-
+/* line 27, /Users/jbailey14/Desktop/Stories-and-Slices/scss/styles.scss */
+.color-5 {
+  background: #a77739; }
 
 /* Textures or Patterns ----------------------------------------------*/
+/* line 34, /Users/jbailey14/Desktop/Stories-and-Slices/scss/styles.scss */
+.pattern-1 {
+  background: url("../img/text1.jpeg"); }
 
-.pattern-1{
-    background: url("../img/text1.jpeg");
-}
+/* line 38, /Users/jbailey14/Desktop/Stories-and-Slices/scss/styles.scss */
+.pattern-2 {
+  background: url("../img/text2.jpeg"); }
 
-.pattern-2{
-    background: url("../img/text2.jpeg");
-}
+/* line 42, /Users/jbailey14/Desktop/Stories-and-Slices/scss/styles.scss */
+.pattern-3 {
+  background: url("../img/text3.jpeg"); }
 
-.pattern-3{
-    background: url("../img/text3.jpeg");
-}
+/*# sourceMappingURL=styles.css.map */
