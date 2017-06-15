@@ -1,8 +1,10 @@
 /* Body ----------------------------------------------------------------------------------------------------------*/
-Body{
-    background: url(../img/bookbanner.jpg);
-    background-repeat:repeat;
+body{
+    background-image: url(../img/books2.jpeg);
+    display: flex;
+    flex-direction: column
 }
+
 
 
 /* Color Palette -------------------------------------------------------------------------------------------------*/
@@ -63,21 +65,31 @@ Body{
     width: 20%;
     height: 20%;
     border: 7px solid black;
-    position: auto;
+    position: relative;
 }
 
-// Navigation
-nav {
-    background: red;
-    width: 600px;
-    height: 30px;
-}
+/*Navigation -----------------------------------------------------------------------------------------------------*/
+
 
 .navlinks {
-    list-style: none;
-    display: inline;
+    background: rgba(116,20,65,.5); 
+    border: rgba(116,20,65,1) solid 2.5px;
+    border-radius: .7em;
+    font-size: 1.3em;
+    margin: .2em 1em .3em 1em;
 }
 
+.navlinks a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navlinks a:hover {
+    background: rgba(82,116,162,.5);
+}
 
 /* Typography ----------------------------------------------------------------------------------------------------*/
 /* Quotation & Navigation = font-family: 'Simonetta', cursive; */
@@ -140,6 +152,12 @@ button:hover {
    color: white;
 }
 
+.copyright {
+    color: white;
+    text-align: center;
+    font-size: .75em;
+}
+
 /* Post --------------------------------------------------------------*/
 
 .post {
@@ -169,25 +187,25 @@ section {
 
 */
 /* Footer --------------------------------------------------------------------------------------------------------*/
-.copyright {
-    color: white;
-    text-align: center;
-    font-size: .8em;
+
     
     
 /* Media Queries -------------------------------------------------------------------------------------------------*/
 /* Mobile: 320px = 20em */
 @media screen and (min-width: 20em) { 
 
-}
-  /* Diagnostic Styling. Delete When Done. */
+  /* Diagnostic Styling. */
   
 
 /* Tablet:  768px = 160em */
 @media screen and (min-width: 48em)  {
-    }
-  
+
+  /* Diagnostic Styling. */
+ 
+
 /* Desktop: 1280px = 80em */
 @media screen and (min-width: 80em) { 
-}
-/* Diagnostic Styling. Delete When Done. */
+  
+  /* Diagnostic Styling. */
+  
+    
