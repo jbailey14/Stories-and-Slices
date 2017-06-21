@@ -47,23 +47,24 @@ body{
 /* Banner Styling ------------------------------------------------------------------------------------------------*/
 .banner {
     background:
-    linear-gradient( rgba(167,119,57,.50), rgba(167,119,57,.50) ),
-    
-    url(../img/text3.jpeg);
-    
+    linear-gradient( rgba(167,119,57,.0), 
+    rgba(167,119,57,.40) ),
+    url(../img/wood3.jpeg)
+    bottom center no-repeat;
+   
     border: 10px solid black;
     display: flex;
     flex-wrap: wrap;
 }
 
 .title{
-    padding-left: 2em;
     flex-grow: 1;
+    text-align: center;
 }
 
 .logo{
-    width: 20%;
-    height: 20%;
+    width: 30%;
+    height: 30%;
     border: 7px solid black;
     position: relative;
 }
@@ -96,7 +97,7 @@ body{
 
 h1 {
     font-family: 'Oswald', sans-serif;
-    font-size: 5em;
+    font-size: 7em;
     text-transform: uppercase;
     color: rgba(116,20,65,1);
     text-shadow: 5px 5px 5px #000;
@@ -162,7 +163,7 @@ button:hover {
 
 .post {
     background: ;
-    background-image: linear-gradient( to right, rgba(255,255,255,1), rgba(255,255,255,.25) );
+    background-image: linear-gradient( to right, rgba(255,255,255,1), rgba(255,255,255,.6) );
     padding: .2em 1em .5em 1em;
     border-radius: 2em;
     border: rgba(106,130,107,1) solid 2px;
