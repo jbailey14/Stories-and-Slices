@@ -2,7 +2,7 @@
 body{
     background-image: url(../img/books2.jpeg);
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 
 
@@ -30,47 +30,6 @@ body{
 }
 
 
-/* Textures or Patterns ------------------------------------------------------------------------------------------*/
-
-.pattern-1{
-    background: url("../img/text1.jpeg");
-}
-
-.pattern-2{
-    background: url("../img/text2.jpeg");
-}
-
-.pattern-3{
-    background: url("../img/text3.jpeg");
-}
-
-/* Banner Styling ------------------------------------------------------------------------------------------------*/
-.banner {
-    background:
-    linear-gradient( rgba(167,119,57,.0), 
-    rgba(167,119,57,.40) ),
-    url(../img/wood3.jpeg)
-    bottom center no-repeat;
-   
-    border: 10px solid black;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-/*
-.title{
-    flex-grow: 1;
-    text-align: center;
-    font-size: 7em;
-}
-
-.logo{
-    width: 30%;
-    height: 30%;
-    border: 7px solid black;
-    position: relative;
-}
-*/
 
 /*Navigation -----------------------------------------------------------------------------------------------------*/
 
@@ -94,6 +53,33 @@ body{
 .navlinks a:hover {
     background: rgba(82,116,162,.5);
 }
+
+/* Archive List Styling ----------------------------*/
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.rlinks {
+    font-size: 1em;
+    padding: 4px 0px 4px 0px;
+    }
+
+.rlinks a {
+    text-decoration: none;
+    color: rgba(82,116,162,1);
+    
+}
+
+.rlinks a:hover {
+    background: rgba(82,116,162,.5);
+}
+
+
 
 /* Typography ----------------------------------------------------------------------------------------------------*/
 /* Quotation & Navigation = font-family: 'Simonetta', cursive; */
@@ -241,19 +227,114 @@ section {
 }
 
 
-/* Footer --------------------------------------------------------------------------------------------------------*/
+/* Button --------------------------------------------------------------------------------------------------------*/
 
+.button {
+   border-top: 1px solid #69806a;
+   background: #6a826b;
+   background: -webkit-gradient(linear, left top, left bottom, from(#6a826b), to(#6a826b));
+   background: -webkit-linear-gradient(top, #6a826b, #6a826b);
+   background: -moz-linear-gradient(top, #6a826b, #6a826b);
+   background: -ms-linear-gradient(top, #6a826b, #6a826b);
+   background: -o-linear-gradient(top, #6a826b, #6a826b);
+   padding: 8px 16px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   
+    color: white;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 50px;
+    height: 25px;
+   }
+
+.button:hover {
+   border-top-color: #5273a2;
+   background: #5273a2;
+   color: #ccc;
+   }
+
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+
+/* Banner Styling ------------------------------------------------------------------------------------------------*/
+/*.banner {*/
+/*
+    background:
+    linear-gradient( rgba(167,119,57,.0), 
+    rgba(167,119,57,.40) ),
+    url(../img/wood3.jpeg)
+    bottom center no-repeat;
+*/
+   
+/*
+    border: 10px solid black;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+*/
+}
+
+/*
+.title{
+    flex-grow: 1;
+    text-align: center;
+    font-size: 7em;
+}
+*/
+
+/*
+.logo {
+    width: ;
+    height: 70%;
+    border: 7px solid black;
+*/
+    
+/*}    */
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerImg {
+    background: url(../img/wood3.jpeg);
+    
+    padding: 15px;
+    margin: 5px;
+    border: 10px solid black;
+}
+
+
     
 /* Media Queries -------------------------------------------------------------------------------------------------*/
 /* Mobile: 320px = 20em */
 @media screen and (min-width: 20em) { 
 
     .title {
-        text-align: center;
+/*        text-align: center;*/
         font-size: 4em;
     }
     
+/*
     .logo{
         width: 10%;
         height: 10%;
@@ -262,6 +343,7 @@ section {
         justify-content: center;
         align-items: center;
     }
+*/
   
 }
     
@@ -269,17 +351,19 @@ section {
 @media screen and (min-width: 48em)  {
 
     .title {
-        flex-grow: 1;
-        text-align: center;
+/*        flex-grow: 1;*/
+/*        text-align: center;*/
         font-size: 7em;
     }
     
+/*
     .logo{
         width: 20%;
         height: 20%;
         border: 7px solid black;
         position: relative;
     }
+*/
  
 }
     
@@ -287,16 +371,18 @@ section {
 @media screen and (min-width: 80em) { 
 
     .title {
-        flex-grow: 1;
-        text-align: center;
+/*        flex-grow: 1;*/
+/*        text-align: center;*/
         font-size: 10em;
     }
     
+/*
     .logo{
         width: 30%;
         height: 30%;
         border: 7px solid black;
         position: relative;
     }
+*/
     
 }
